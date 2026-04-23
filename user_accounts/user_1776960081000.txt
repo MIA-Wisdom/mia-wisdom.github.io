@@ -1,0 +1,5 @@
+email=wackedwacko@gmail.com
+password=123
+verified=false
+name=WackedWacko
+createdAt=1776960081000
