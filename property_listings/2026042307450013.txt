@@ -1,0 +1,9 @@
+Title: Villa in Nürnberg
+Description: Herrschaftliche Villa mit parkähnlichem Garten. 8 Zimmer, 3 Bäder, Garage. historische Architektur.
+Price: 1200000.00
+PropertyType: HOUSE
+ListingType: FOR_SALE
+Address: Parkstraße 12, 90408 Nürnberg
+Latitude: 49.4500
+Longitude: 11.0800
+ImageUrls: https://example.com/images/property13_1.jpg,https://example.com/images/property13_2.jpg

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PropertyRadar - Connecting to GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .callback-container {
+            max-width: 500px;
+            margin: 100px auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .success {
+            color: #4CAF50;
+            font-size: 3rem;
+        }
+        .error {
+            color: #F44336;
+            font-size: 3rem;
+        }
+        .btn-home {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: var(--primary);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PropertyRadar</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="callback-container">
+            <h2 id="status-title">Connecting to GitHub...</h2>
+            <div class="spinner" id="spinner"></div>
+            <p id="status-message">Please wait while we complete the authentication.</p>
+            <div id="result" style="display: none;"></div>
+            <a href="index.html" class="btn-home" id="btn-home" style="display: none;">Return to Home</a>
+        </div>
+    </main>
+
+    <script>
+        // Get the authorization code from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const code = urlParams.get('code');
+        const error = urlParams.get('error');
+
+        // Elements
+        const titleEl = document.getElementById('status-title');
+        const spinnerEl = document.getElementById('spinner');
+        const messageEl = document.getElementById('status-message');
+        const resultEl = document.getElementById('result');
+        const btnHome = document.getElementById('btn-home');
+
+        async function handleCallback() {
+            if (error) {
+                // OAuth error occurred
+                titleEl.textContent = 'Connection Failed';
+                spinnerEl.className = 'error';
+                spinnerEl.style.borderTopColor = '#F44336';
+                messageEl.textContent = 'Error: ' + decodeURIComponent(error);
+                showResult();
+                return;
+            }
+
+            if (!code) {
+                // No code provided - user cancelled or invalid request
+                titleEl.textContent = 'No Authorization Code';
+                spinnerEl.className = 'error';
+                spinnerEl.style.borderTopColor = '#F44336';
+                messageEl.textContent = 'Unable to complete authorization. Please try again.';
+                showResult();
+                return;
+            }
+
+            // Success - we have the code
+            // In a real app, you would exchange this code for an access token via your backend
+            // For now, we'll just show success
+            titleEl.textContent = 'Connected!';
+            spinnerEl.className = 'success';
+            spinnerEl.innerHTML = '✓';
+            messageEl.textContent = 'Successfully connected to GitHub!';
+
+            resultEl.innerHTML = `
+                <p><strong>Authorization Code:</strong></p>
+                <code style="word-break: break-all; font-size: 0.8rem;">${code}</code>
+            `;
+
+            // Store the code (in real app, exchange for token first)
+            localStorage.setItem('github_auth_code', code);
+
+            showResult();
+        }
+
+        function showResult() {
+            spinnerEl.style.display = 'none';
+            resultEl.style.display = 'block';
+            btnHome.style.display = 'inline-block';
+        }
+
+        // Run on page load
+        handleCallback();
+    </script>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 PropertyRadar. Powered by OpenStreetMap</p>
+        </div>
+    </footer>
+</body>
+</html>

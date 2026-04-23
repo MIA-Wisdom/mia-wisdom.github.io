@@ -1,0 +1,9 @@
+Title: Loft-Wohnung in Hamburg-HafenCity
+Description: Hochwertiges Loft mit Elbblick. Offener Grundriss, Deckenhöhe 4m, Designer-Küche. Luxuriöse Ausstattung.
+Price: 680000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Am Kaiserkai 50, 20457 Hamburg
+Latitude: 53.5400
+Longitude: 10.0000
+ImageUrls: https://example.com/images/property4_1.jpg

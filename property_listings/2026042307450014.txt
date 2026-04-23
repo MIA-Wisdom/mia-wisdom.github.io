@@ -1,0 +1,9 @@
+Title: Ladenlokal in Leipzig
+Description: Erdgeschoss-Laden in 1A-Lage. 80qm, Schaufenster, WC. Ideal für Einzelhandel.
+Price: 1200.00
+PropertyType: COMMERCIAL
+ListingType: FOR_RENT
+Address: Petersstraße 20, 04109 Leipzig
+Latitude: 51.3400
+Longitude: 12.3800
+ImageUrls: https://example.com/images/property14_1.jpg

@@ -1,0 +1,9 @@
+Title: Ferienwohnung auf Sylt
+Description: Schöne Ferienwohnung mit Meerblick. 2 Zimmer, Küche, Balkon. Strandnah, ideal für Urlaub.
+Price: 180000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Strandstraße 25, 25980 Sylt
+Latitude: 54.9000
+Longitude: 8.4000
+ImageUrls: https://example.com/images/property8_1.jpg,https://example.com/images/property8_2.jpg

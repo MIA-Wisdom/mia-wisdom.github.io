@@ -1,0 +1,9 @@
+Title: Verlassenes Bauernhof Grundstück
+Description: Altes Bauernhof Grundstück mit abrissbedürftigen Gebäuden. Große Fläche, idyllische Lage.
+Price: 150000.00
+PropertyType: LAND
+ListingType: ABANDONED
+Address: Dorfstraße 45, 17291 Gramzow
+Latitude: 53.1500
+Longitude: 14.0500
+ImageUrls: https://example.com/images/property10_1.jpg

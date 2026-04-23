@@ -1,0 +1,170 @@
+PROPERTY LISTINGS - PropertyRadar App
+=====================================
+Date: April 23, 2026
+
+#1
+Title: Moderner Neubau in Berlin-Mitte
+Description: Schöne 3-Zimmer-Wohnung im Herzen von Berlin. Moderne Ausstattung, offene Küche, Balkon mit Blick auf die Stadt.
+Price: 450000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Friedrichstraße 45, 10117 Berlin
+Latitude: 52.5100
+Longitude: 13.3900
+ImageUrls: https://example.com/images/property1_1.jpg,https://example.com/images/property1_2.jpg
+
+#2
+Title: Gemütliches WG-Zimmer in Prenzlauer Berg
+Description: Helles Zimmer in WG mit Blick auf den Park. Küche und Bad geteilt. Zentrale Lage, U-Bahn in der Nähe.
+Price: 750.00
+PropertyType: APARTMENT
+ListingType: FOR_RENT
+Address: Kastanienallee 23, 10435 Berlin
+Latitude: 52.5400
+Longitude: 13.4200
+ImageUrls: https://example.com/images/property2_1.jpg
+
+#3
+Title: Einfamilienhaus mit Garten in Potsdam
+Description: Geräumiges Einfamilienhaus in ruhiger Wohngegend. 4 Zimmer, Küche, Bad, Garten. Garage vorhanden.
+Price: 520000.00
+PropertyType: HOUSE
+ListingType: FOR_SALE
+Address: Zeppelinstraße 12, 14482 Potsdam
+Latitude: 52.3900
+Longitude: 13.0600
+ImageUrls: https://example.com/images/property3_1.jpg,https://example.com/images/property3_2.jpg,https://example.com/images/property3_3.jpg
+
+#4
+Title: Loft-Wohnung in Hamburg-HafenCity
+Description: Hochwertiges Loft mit Elbblick. Offener Grundriss, Deckenhöhe 4m, Designer-Küche. Luxuriöse Ausstattung.
+Price: 680000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Am Kaiserkai 50, 20457 Hamburg
+Latitude: 53.5400
+Longitude: 10.0000
+ImageUrls: https://example.com/images/property4_1.jpg
+
+#5
+Title: Bürofläche in München-Maxvorstadt
+Description: Moderne Bürofläche in bester Lage. Hohe Decken, Tageslicht, LAN-Verkabelung. Provisionsfrei.
+Price: 2800.00
+PropertyType: COMMERCIAL
+ListingType: FOR_RENT
+Address: Augustenstraße 10, 80333 München
+Latitude: 48.1450
+Longitude: 11.5650
+ImageUrls: https://example.com/images/property5_1.jpg
+
+#6
+Title: Altbau-Wohnung in Frankfurt-Innenstadt
+Description: Charmante Altbau-Wohnung mit Stuckdecke. 2 Zimmer, Küche, Bad. Zentrumsnähe, gute Infrastruktur.
+Price: 320000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Zeil 65, 60313 Frankfurt
+Latitude: 50.1100
+Longitude: 8.6800
+ImageUrls: https://example.com/images/property6_1.jpg
+
+#7
+Title: Reihenhaus in Köln-Ehrenfeld
+Description: Kleines Reihenhaus mit Garten. 3 Etagen, 4 Zimmer, Keller. Ruhige Lage, gute Verkehrsanbindung.
+Price: 380000.00
+PropertyType: HOUSE
+ListingType: FOR_SALE
+Address: Subbelgrathstraße 8, 50672 Köln
+Latitude: 50.9350
+Longitude: 7.0300
+ImageUrls: https://example.com/images/property7_1.jpg
+
+#8
+Title: Ferienwohnung auf Sylt
+Description: Schöne Ferienwohnung mit Meerblick. 2 Zimmer, Küche, Balkon. Strandnah, ideal für Urlaub.
+Price: 180000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Strandstraße 25, 25980 Sylt
+Latitude: 54.9000
+Longitude: 8.4000
+ImageUrls: https://example.com/images/property8_1.jpg,https://example.com/images/property8_2.jpg
+
+#9
+Title: Gewerbehalle in Düsseldorf
+Description: Große Gewerbehalle mit Büro. 500qm, Rolltore, Starkstromanschluss. Gute Autobahnanbindung.
+Price: 450.00
+PropertyType: COMMERCIAL
+ListingType: FOR_RENT
+Address: Industrieallee 15, 40549 Düsseldorf
+Latitude: 51.2200
+Longitude: 6.8000
+ImageUrls: https://example.com/images/property9_1.jpg
+
+#10
+Title: Verlassenes Bauernhof Grundstück
+Description: Altes Bauernhof Grundstück mit abrissbedürftigen Gebäuden. Große Fläche, idyllische Lage.
+Price: 150000.00
+PropertyType: LAND
+ListingType: ABANDONED
+Address: Dorfstraße 45, 17291 Gramzow
+Latitude: 53.1500
+Longitude: 14.0500
+ImageUrls: https://example.com/images/property10_1.jpg
+
+#11
+Title: Penthouse in Stuttgart
+Description: Exklusives Penthouse mit Dachterrasse. 5 Zimmer, offener Schnitt, Designer-Einrichtung. Panoramablick.
+Price: 890000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Königstraße 30, 70173 Stuttgart
+Latitude: 48.7750
+Longitude: 9.1800
+ImageUrls: https://example.com/images/property11_1.jpg,https://example.com/images/property11_2.jpg
+
+#12
+Title: Studentenwohnung in Dresden
+Description: Kleine WG-WohnungUni-Nähe. Schlafzimmer, Wohnzimmer, Küche. Busverbindung.
+Price: 450.00
+PropertyType: APARTMENT
+ListingType: FOR_RENT
+Address: Fritz-Löffler-Straße 18, 01069 Dresden
+Latitude: 51.0300
+Longitude: 13.7300
+ImageUrls: https://example.com/images/property12_1.jpg
+
+#13
+Title: Villa in Nürnberg
+Description: Herrschaftliche Villa mit parkähnlichem Garten. 8 Zimmer, 3 Bäder, Garage. historische Architektur.
+Price: 1200000.00
+PropertyType: HOUSE
+ListingType: FOR_SALE
+Address: Parkstraße 12, 90408 Nürnberg
+Latitude: 49.4500
+Longitude: 11.0800
+ImageUrls: https://example.com/images/property13_1.jpg,https://example.com/images/property13_2.jpg
+
+#14
+Title: Ladenlokal in Leipzig
+Description: Erdgeschoss-Laden in 1A-Lage. 80qm, Schaufenster, WC. Ideal für Einzelhandel.
+Price: 1200.00
+PropertyType: COMMERCIAL
+ListingType: FOR_RENT
+Address: Petersstraße 20, 04109 Leipzig
+Latitude: 51.3400
+Longitude: 12.3800
+ImageUrls: https://example.com/images/property14_1.jpg
+
+#15
+Title: Grundstück Bauerwartungsland
+Description: Bauerwartungsland am Stadtrand. 2000qm, Bauplanung möglich. Infrastruktur in Entwicklung.
+Price: 280000.00
+PropertyType: LAND
+ListingType: FOR_SALE
+Address: Am Sportplatz 5, 15366 Petershagen
+Latitude: 52.5000
+Longitude: 13.9000
+ImageUrls: 
+
+END OF LISTINGS

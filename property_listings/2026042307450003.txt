@@ -1,0 +1,9 @@
+Title: Einfamilienhaus mit Garten in Potsdam
+Description: Geräumiges Einfamilienhaus in ruhiger Wohngegend. 4 Zimmer, Küche, Bad, Garten. Garage vorhanden.
+Price: 520000.00
+PropertyType: HOUSE
+ListingType: FOR_SALE
+Address: Zeppelinstraße 12, 14482 Potsdam
+Latitude: 52.3900
+Longitude: 13.0600
+ImageUrls: https://example.com/images/property3_1.jpg,https://example.com/images/property3_2.jpg,https://example.com/images/property3_3.jpg

@@ -1,0 +1,9 @@
+Title: Altbau-Wohnung in Frankfurt-Innenstadt
+Description: Charmante Altbau-Wohnung mit Stuckdecke. 2 Zimmer, Küche, Bad. Zentrumsnähe, gute Infrastruktur.
+Price: 320000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Zeil 65, 60313 Frankfurt
+Latitude: 50.1100
+Longitude: 8.6800
+ImageUrls: https://example.com/images/property6_1.jpg

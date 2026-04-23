@@ -1,0 +1,9 @@
+Title: Studentenwohnung in Dresden
+Description: Kleine WG-WohnungUni-Nähe. Schlafzimmer, Wohnzimmer, Küche. Busverbindung.
+Price: 450.00
+PropertyType: APARTMENT
+ListingType: FOR_RENT
+Address: Fritz-Löffler-Straße 18, 01069 Dresden
+Latitude: 51.0300
+Longitude: 13.7300
+ImageUrls: https://example.com/images/property12_1.jpg

@@ -1,0 +1,9 @@
+Title: Gewerbehalle in Düsseldorf
+Description: Große Gewerbehalle mit Büro. 500qm, Rolltore, Starkstromanschluss. Gute Autobahnanbindung.
+Price: 450.00
+PropertyType: COMMERCIAL
+ListingType: FOR_RENT
+Address: Industrieallee 15, 40549 Düsseldorf
+Latitude: 51.2200
+Longitude: 6.8000
+ImageUrls: https://example.com/images/property9_1.jpg

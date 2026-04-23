@@ -1,0 +1,9 @@
+Title: Grundstück Bauerwartungsland
+Description: Bauerwartungsland am Stadtrand. 2000qm, Bauplanung möglich. Infrastruktur in Entwicklung.
+Price: 280000.00
+PropertyType: LAND
+ListingType: FOR_SALE
+Address: Am Sportplatz 5, 15366 Petershagen
+Latitude: 52.5000
+Longitude: 13.9000
+ImageUrls:

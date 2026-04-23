@@ -1,0 +1,9 @@
+Title: Bürofläche in München-Maxvorstadt
+Description: Moderne Bürofläche in bester Lage. Hohe Decken, Tageslicht, LAN-Verkabelung. Provisionsfrei.
+Price: 2800.00
+PropertyType: COMMERCIAL
+ListingType: FOR_RENT
+Address: Augustenstraße 10, 80333 München
+Latitude: 48.1450
+Longitude: 11.5650
+ImageUrls: https://example.com/images/property5_1.jpg

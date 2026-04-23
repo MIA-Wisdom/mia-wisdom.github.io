@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #2196F3;
+    --primary-dark: #1976D2;
+    --accent: #FF9800;
+    --text: #212121;
+    --text-secondary: #757575;
+    --background: #F5F5F5;
+    --white: #FFFFFF;
+    --divider: #BDBDBD;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--background);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: var(--primary);
+    color: var(--white);
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: var(--white);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: var(--text-secondary);
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+}
+
+.btn-secondary {
+    background: #24292E;
+    color: var(--white);
+}
+
+.btn-secondary:hover {
+    background: #000;
+}
+
+.features {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.feature {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--divider);
+}
+
+.feature:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.feature h3 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.feature ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.feature li {
+    margin-bottom: 5px;
+}
+
+.note {
+    background: #FFF3E0;
+    padding: 10px;
+    border-left: 3px solid var(--accent);
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.how-it-works {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.how-it-works h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.step-number {
+    background: var(--primary);
+    color: var(--white);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.step h3 {
+    margin-bottom: 5px;
+}
+
+.step p {
+    color: var(--text-secondary);
+}
+
+.auth-section {
+    text-align: center;
+    background: var(--white);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.auth-section h2 {
+    margin-bottom: 15px;
+}
+
+.auth-section p {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.screenshot {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.screenshot h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.placeholder {
+    background: var(--background);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: var(--text-secondary);
+}
+
+footer {
+    background: #24292E;
+    color: var(--white);
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .hero h2,
+    .features h2,
+    .how-it-works h2 {
+        font-size: 1.5rem;
+    }
+    
+    .step {
+        flex-direction: column;
+    }
+    
+    .step-number {
+        margin-bottom: 10px;
+    }
+}

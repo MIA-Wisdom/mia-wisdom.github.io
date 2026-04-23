@@ -1,0 +1,9 @@
+Title: Penthouse in Stuttgart
+Description: Exklusives Penthouse mit Dachterrasse. 5 Zimmer, offener Schnitt, Designer-Einrichtung. Panoramablick.
+Price: 890000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Königstraße 30, 70173 Stuttgart
+Latitude: 48.7750
+Longitude: 9.1800
+ImageUrls: https://example.com/images/property11_1.jpg,https://example.com/images/property11_2.jpg

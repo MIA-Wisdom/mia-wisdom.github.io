@@ -1,0 +1,9 @@
+Title: Gemütliches WG-Zimmer in Prenzlauer Berg
+Description: Helles Zimmer in WG mit Blick auf den Park. Küche und Bad geteilt. Zentrale Lage, U-Bahn in der Nähe.
+Price: 750.00
+PropertyType: APARTMENT
+ListingType: FOR_RENT
+Address: Kastanienallee 23, 10435 Berlin
+Latitude: 52.5400
+Longitude: 13.4200
+ImageUrls: https://example.com/images/property2_1.jpg

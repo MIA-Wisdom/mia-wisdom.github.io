@@ -1,0 +1,9 @@
+Title: Moderner Neubau in Berlin-Mitte
+Description: Schöne 3-Zimmer-Wohnung im Herzen von Berlin. Moderne Ausstattung, offene Küche, Balkon mit Blick auf die Stadt.
+Price: 450000.00
+PropertyType: APARTMENT
+ListingType: FOR_SALE
+Address: Friedrichstraße 45, 10117 Berlin
+Latitude: 52.5100
+Longitude: 13.3900
+ImageUrls: https://example.com/images/property1_1.jpg,https://example.com/images/property1_2.jpg

@@ -1,0 +1,9 @@
+Title: Reihenhaus in Köln-Ehrenfeld
+Description: Kleines Reihenhaus mit Garten. 3 Etagen, 4 Zimmer, Keller. Ruhige Lage, gute Verkehrsanbindung.
+Price: 380000.00
+PropertyType: HOUSE
+ListingType: FOR_SALE
+Address: Subbelgrathstraße 8, 50672 Köln
+Latitude: 50.9350
+Longitude: 7.0300
+ImageUrls: https://example.com/images/property7_1.jpg
