@@ -1,5 +1,0 @@
-email=wackedwacko@gmail.com
-password=
-name=12345678
-phone=WackedWacko
-createdAt=1777012967133
